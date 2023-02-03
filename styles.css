@@ -2,6 +2,8 @@
 
 .headr{
     text-align: center;
+    color: #1e3661;
+    font-size: 40px;
 }
 
 /* Aligning paragraph text */
@@ -21,10 +23,18 @@
 /* Image stylization. */
 
 .pic{
+    display: block;
     border: 1px solid #BDA97E;
     padding: 5px;
-    width: 500px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+/* Page color */
+
+body {background-color: #DED6C3;}
 
 /* Adding top navigation bar style. */
 
@@ -53,6 +63,7 @@ ul.navbar li a.active {background-color: #4A7BA2;}
 
 body {margin: 0;}
 
+
 /* Adding footer style */
 
 .foot{
@@ -66,6 +77,7 @@ body {margin: 0;}
     text-align: center;
     overflow: hidden;
     padding: 0;
+    margin: 0;
 }
 
 
