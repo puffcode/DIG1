@@ -1,0 +1,75 @@
+/* Aligning heading text. */
+
+.headr{
+    text-align: center;
+}
+
+/* Aligning paragraph text */
+
+.info{
+    margin: 4px;
+    color: #4A7BA2;
+}
+
+/* Color on h2 elements */
+
+.title{
+    color: #1d2d26;
+    margin: 2px;
+}
+
+/* Image stylization. */
+
+.pic{
+    border: 1px solid #BDA97E;
+    padding: 5px;
+    width: 500px;
+}
+
+/* Adding top navigation bar style. */
+
+ul.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BDA97E;
+    width: 100%;
+}
+
+ul.navbar li {float: left}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {background-color: #1d2d26;}
+
+ul.navbar li a.active {background-color: #4A7BA2;}
+
+body {margin: 0;}
+
+/* Adding footer style */
+
+.foot{
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #BDA97E;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+}
+
+
+
+
+
+
