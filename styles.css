@@ -17,6 +17,14 @@
     font-family: 'Comfortaa', cursive;
 }
 
+.info2{
+    margin: 4px;
+    color: #0402B3;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 11px;
+}
+
 /* Color on h2 elements */
 
 .title{
@@ -89,7 +97,7 @@ body {margin: 0;}
 }
 
 .pic:hover {
-    transform: scale(1.02); 
+    transform: scale(1.015); 
   }
 
 
